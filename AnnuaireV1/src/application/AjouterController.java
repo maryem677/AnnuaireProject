@@ -61,6 +61,7 @@ public class AjouterController {
             scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
             stage.setScene(scene);
             stage.show();
+            System.out.println("oussema <3");
         }
 	}
 }
